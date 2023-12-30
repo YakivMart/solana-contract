@@ -30,8 +30,8 @@ User
 
 
 > TR
-> Bu projede kendi içinde ticaret yapan komünitelerin , ticaretlerinde kendi tokenlarını kullanarak güvenli para transferi yapmasını sağlayan bir sistem yapılmıştır.
-> Bir komüniti oluşturup , kendinize ait token üretebilirsiniz ve bu tokenı üyelerinize satabilmeniz için ürün oluşturabilirsiniz.
+> In this project, a system has been developed that allows communities that trade within themselves to transfer money securely by using their own tokens in their trade.
+> You can create a community, produce your own tokens, and create products to sell these tokens to your members.
 
 > EN
 > In this project, a system was created that enables the communities that trade within themselves to transfer money securely by using their own tokens in their trade.
@@ -40,19 +40,17 @@ User
 
 # Future
 > TR
-Ürettiğiniz tokenlar diğer uygulamalar tarafından API desteği ile kullanılarak ,güvenli ticaret ortamı kurmuş olacaksınız.
+You will establish a safe trading environment by using the tokens you produce by other applications with API support.
 
-> En
+> Width
 By using the tokens you produce with API support by other applications, you will establish a secure trading environment.
 
 
-
-# Kullanım kılavuzu - Guide
+# Guide
 
 ##  User State Account
 > TR
-- Her şeyden önce programın sizin state'inizi tutabilmesi için `createUserState()` metodu ile kendinize yada kullanıcıya account oluşturmalısınız.
-- Bu metod bir PDA ile state account'u üretir.
+- First of all, in order for the program to keep your state, you must create an account for yourself or the user with the `createUserState()` method.
 > EN
 - First of all, you should create an account for yourself or the user with the `createUserState()` method so that the program can keep your state.
 -  This method generates the state account with a PDA.
@@ -151,5 +149,3 @@ createCommunity(
 console.log("Your transaction signature", tx);
 
 ```
-
-
